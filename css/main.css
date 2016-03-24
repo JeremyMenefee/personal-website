@@ -1,0 +1,151 @@
+/*
+Project: Personal Website
+Description: This is our personal website project, it will be posted on github using gh-pages
+Color Theme:
+  - Primary Color: #2F3950
+  - Secondary Color: #818794
+  - Complement Color: #515B72
+  - Base Color: #172544
+  - Alt. Color: #020E26
+*/
+
+/*
+Global Styles
+*/
+H1{
+  margin: 0;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 0px 5px;
+}
+ul{
+  list-style-type: none;
+}
+.border{
+  border-bottom: 4px solid #fff;
+}
+/*
+Header Information
+*/
+
+#Header{
+  height: 125px;
+  width: 100%;
+  background-color: navy;
+  float: left;
+}
+#logo{
+  width: auto;
+  float: left;
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0px 5%;
+}
+#logo h1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0px;
+}
+#nav{
+  float: left;
+  width: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#nav ul{
+  list-style-type: none;
+}
+#nav li{
+  float:left;
+}
+#nav li:after{
+  color: white;
+  padding-right: 7px;
+  content: " | ";
+}
+#social{
+  float: right;
+  margin-right: 20px;
+  width: 20%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#social{
+  text-align: right;
+}
+#social a{
+  font-size: 2em;
+}
+/*
+Banner
+*/
+#banner{
+  height: 500px;
+  background: url("../img/mountainstream.jpg")
+  center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #172544;
+}
+#banner h1{
+  text-align: center;
+  padding-top: 200px;
+  font-size: 3em;
+}
+
+/*
+Skills Styles
+*/
+#skills{
+  background-color: #515B72;
+  height: 500px;
+  float:left;
+}
+#skills .box{
+  width: 22%;
+  float: left;
+  border: 1px solid white;
+  border-radius: 7%;
+  display: inline-block;
+  padding: 35px 35px;
+  margin: 50px 1.25%;
+  color: #fff;
+}
+#skills .box h2{
+  text-align: center;
+}
+#skills .box .skills-icon{
+  font-size: 3em;
+  text-align: center;
+}
+#skills .box .skills-icon a{
+  color: #fff;
+}
+/*
+Footer
+*/
+
+#footer{
+    height: 75px;
+    width: 100%;
+    background-color: navy;
+    float: none;
+  }
+
+  #copyright{
+  color: white;
+  font-size: 1em;
+  width: 20%;
+  float: left;
+  }
+  #footernav a{
+    float:left;
+    width: auto;
+    float: left;
+  }
