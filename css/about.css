@@ -1,0 +1,129 @@
+/*
+Header Information
+*/
+
+#header{
+  height: 125px;
+  width: 100%;
+  background-color: navy;
+  float: left;
+}
+#logo{
+  width: auto;
+  float: left;
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0px 5%;
+}
+#logo h1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0px;
+}
+#nav{
+  float: left;
+  width: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#nav ul{
+  list-style-type: none;
+}
+#nav li{
+  float:left;
+}
+#nav li:after{
+  color: white;
+  padding-right: 7px;
+  content: " | ";
+}
+#social{
+  float: right;
+  margin-right: 20px;
+  width: 20%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#social{
+  text-align: right;
+}
+#social a{
+  font-size: 2em;
+}
+/*
+Banner
+*/
+#banner{
+  height: 500px;
+  background: url("../img/mountainroad.jpg")
+  center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #172544;
+}
+#banner h1{
+  text-align: center;
+  padding-top: 200px;
+  font-size: 3em;
+}
+
+/*
+About Me Styles
+*/
+#about{
+  background-color: #515B72;
+  height: 500px;
+  float:left;
+}
+#about .box{
+  width: 90%;
+  display: inline-block;
+  padding: 35px 35px;
+  margin: 50px 1.25%;
+  color: #fff;
+  font-size: 1.25em;
+}
+#about .box h1{
+  text-align: center;
+}
+#about .box .skills-icon{
+  font-size: 3em;
+  text-align: center;
+}
+#about .box .skills-icon a{
+  color: #fff;
+}
+
+/*
+Video
+*/
+#video{
+align-items: center;
+align-self: center;
+align-content: center;
+}
+
+
+/*
+Footer
+*/
+
+  footer{
+    height: 60px;
+    width: 100%;
+    background-color: navy;
+    }
+
+  #copyright{
+    color: white;
+    font-size: 1em;
+    }
+  #footernav ul{
+    text-align: center;
+   }
+  #footernav a{
+    float: left;
+    }
