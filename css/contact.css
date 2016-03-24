@@ -4,7 +4,7 @@ Banner
 */
 #banner{
   height: 500px;
-  background: url("../img/mountainroad.jpg")
+  background: url("../img/fire.jpg")
   center;
   background-size: cover;
   background-attachment: fixed;
@@ -21,7 +21,7 @@ About Me Styles
 */
 #about{
   background-color: #515B72;
-  height: 500px;
+  height: 300px;
   float:left;
 }
 #about .box{

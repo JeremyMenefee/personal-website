@@ -1,0 +1,55 @@
+/*
+Header Information
+*/
+
+#header{
+  height: 125px;
+  width: 100%;
+  background-color: navy;
+  float: left;
+}
+#logo{
+  width: auto;
+  float: left;
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0px 5%;
+}
+#logo h1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0px;
+}
+#nav{
+  float: left;
+  width: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#nav ul{
+  list-style-type: none;
+}
+#nav li{
+  float:left;
+}
+#nav li:after{
+  color: white;
+  padding-right: 7px;
+  content: " | ";
+}
+#social{
+  float: right;
+  margin-right: 20px;
+  width: 20%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#social{
+  text-align: right;
+}
+#social a{
+  font-size: 2em;
+}

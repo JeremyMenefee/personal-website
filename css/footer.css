@@ -1,0 +1,27 @@
+/*
+Footer
+*/
+
+  footer{
+    height: 70px;
+    width: 100%;
+    background-color: navy;
+    }
+
+  #copyright{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    }
+
+  #social{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+  #social{
+    text-align: center;
+    }
+  #social a{
+    font-size: 2em;
+    }
