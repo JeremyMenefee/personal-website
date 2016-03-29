@@ -130,8 +130,13 @@ Skills Styles
   height: 500px;
   float:left;
 }
+.skillsbox{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
 #skills .box{
-  width: 22%;
+  width: 24%;
   float: left;
   border: 1px solid white;
   border-radius: 7%;
@@ -156,7 +161,7 @@ About Me Styles
 */
 #about{
   background-color: #515B72;
-  height: 300px;
+  height: 385px;
   float:left
 }
 #about .box{
@@ -183,7 +188,7 @@ Contact Me Form
 */
 #contactme{
   background-color: #515B72;
-  height: 350px;
+  height: 410px;
 }
 #contactme h1{
   text-align: center;
@@ -198,14 +203,23 @@ Contact Me Form
 }
 #contactform input{
   width: 70%;
-  height: 30px;
+  height: 25px;
   margin: 10px;
   margin-left: 10%;
+  border: none;
 }
-#contactform input[name="submitbutton"] {
-  width: 100px;
+#contactform input[name="message"] {
+  height: 100px;
   border: 0px;
 }
+#contactform input[name="submitbutton"] {
+  background-color: navy;
+  border: none;
+  color: #fff;
+  font-size: .8em;
+  font-weight: bold;
+}
+
 
 #address{
   width: 39%;
