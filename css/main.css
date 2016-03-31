@@ -207,17 +207,18 @@ Contact Me Form
   margin: 10px;
   margin-left: 10%;
   border: none;
+  border-radius: 5px
 }
 #contactform input[name="message"] {
   height: 100px;
   border: 0px;
 }
 #contactform input[name="submitbutton"] {
-  background-color: navy;
   border: none;
-  color: #fff;
+  color: #000;
   font-size: .8em;
   font-weight: bold;
+  border-radius: 10px
 }
 
 
